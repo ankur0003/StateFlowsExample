@@ -1,0 +1,7 @@
+State Flows
+
+1. Replacement for LiveData
+2. Live Data is not a replacement . it is just a new way of doing things on coroutines
+3. State Flow needs to have an initial value whereas Live Data is not. Therefore, StateFlow is good and there will be no null value	
+4. StateFlow will remain active when your is in background unlike LiveData which will become inactive
+5. You can transform the result before you observe it
